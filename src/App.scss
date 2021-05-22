@@ -1,0 +1,19 @@
+@import '~bootstrap/scss/bootstrap';
+
+/* General */
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #24292e;
+  color: #000126;
+  font-family: 'Ubuntu', sans-serif;
+  perspective: 600px;
+  overflow-x: hidden;
+}
+.json-formatter {
+  padding: 10px;
+}

@@ -1,0 +1,23 @@
+.json-validator {
+  &__options {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 20px;
+      color: white;
+      margin-right: 24px;
+    }
+    Button {
+      margin-right: 10px;
+    }
+  }
+  &__textArea {
+    min-height: 200px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .headerBox {
+    margin: 25px 0px 50px 0px;
+  }
+  margin-bottom: 60px;
+}

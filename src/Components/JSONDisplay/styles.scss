@@ -1,0 +1,47 @@
+.json-display {
+  margin-top: 24px;
+  &__heading {
+    font-size: 20px;
+    color: white;
+    span {
+      margin-right: 24px;
+    }
+    Button {
+      margin-right: 10px;
+    }
+  }
+  &__formattedJSON {
+    min-height: 200px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 24px;
+  }
+  margin-bottom: 100px;
+  ul {
+    list-style-type: none;
+    margin: 0px;
+  }
+  .pinkText {
+    color: #900084;
+  }
+  .redText {
+    color: red;
+  }
+  .helperText {
+    color: gray;
+    font-size: 12px;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .expandIcon {
+    width: 18px;
+    height: 18px;
+  }
+  .arrayData {
+    margin-left: 20px;
+  }
+}
